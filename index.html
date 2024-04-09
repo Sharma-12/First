@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="back">
+            <div class="row">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <div class="column">
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <div class="text_style">
+                <h1>X</h1>
+                <h1>X</h1>
+                <h1>O</h1>
+                <h1>O</h1>
+                <h1>X</h1>
+                <h1>X</h1>
+                <h1>O</h1>
+                <h1>O</h1>
+            </div>
+        </div>
+        <div class="header">
+            <h1>Play with your life...!</h1>
+        </div>
+
+        <div class="game_container">
+            <div class="row">
+                <input type="text" readonly id="b1" onclick="f1(); fun_click(); ">
+                <input type="text" readonly id="b2" onclick="f2(); fun_click(); ">
+                <input type="text" readonly id="b3" onclick="f3(); fun_click(); ">
+            </div>
+            <div class="row">
+                <input type="text" readonly id="b4" onclick="f4(); fun_click();">
+                <input type="text" readonly id="b5" onclick="f5(); fun_click();">
+                <input type="text" readonly id="b6" onclick="f6(); fun_click();">
+            </div>
+            <div class="row">
+                <input type="text" readonly id="b7" onclick="f7(); fun_click();">
+                <input type="text" readonly id="b8" onclick="f8(); fun_click();">
+                <input type="text" readonly id="b9" onclick="f9(); fun_click();">
+            </div>
+            <h3 id="print">Game start from Player 'X'</h3>
+            <div class="button">
+                <!-- <button onclick="start()">Start</button> -->
+                <button onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
